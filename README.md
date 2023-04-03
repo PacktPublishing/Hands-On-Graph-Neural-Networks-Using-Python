@@ -30,8 +30,7 @@ All of the code is organized into folders.
 The code will look like the following:
 ```
 DG = nx.DiGraph()
-DG.add_edges_from([('A', 'B'), ('A', 'C'), ('B', 'D'), ('B',
-'E'), ('C', 'F'), ('C', 'G')])
+DG.add_edges_from([('A', 'B'), ('A', 'C'), ('B', 'D'), ('B', 'E'), ('C', 'F'), ('C', 'G')])
 ```
 
 
@@ -39,7 +38,7 @@ DG.add_edges_from([('A', 'B'), ('A', 'C'), ('B', 'D'), ('B',
 This book is for machine learning practitioners and data scientists interested in learning about graph neural networks and their applications, as well as students looking for a comprehensive reference on this rapidly growing field. Whether you’re new to graph neural networks or looking to take your knowledge to the next level, this book has something for you. Basic knowledge of machine learning and Python programming will help you get the most out of this book.	 
 
 Basic knowledge of Python will help you get more from the examples.	
-With the following software and hardware list you can run all code files present in the book (Chapter 1-14).
+With the following software and hardware list you can run all code files present in the book (Chapter 2-14).
 
 ### Software and Hardware List
 
@@ -55,35 +54,23 @@ concepts and their implementation.
 | PyTorch 1.13.1                         | Windows, Mac OS X, and Linux (Any) |
 | PyTorch Geometric 2.2.0                | Windows, Mac OS X, and Linux (Any) |
 
-To install Python 3.8.15, you can download the latest version from the official Python website: https://
-www.python.org/downloads/. We strongly recommend using a virtual environment, such as
-venv or conda.
-Optionally, if you want to use a Graphics Processing Unit (GPU) from NVIDIA to accelerate training
-and inference, you will need to install CUDA and cuDNN:
-CUDA is a parallel computing platform and API developed by NVIDIA for general computing
-on GPUs. To install CUDA, you can follow the instructions on the NVIDIA website: https://
-developer.nvidia.com/cuda-downloads.
-cuDNN is a library developed by NVIDIA, which provides highly optimized GPU implementations
-of primitives for deep learning algorithms. To install cuDNN, you need to create an account on the
-NVIDIA website and download the library from the cuDNN download page: https://developer.
-nvidia.com/cudnn.
-You can check out the list of CUDA-enabled GPU products on the NVIDIA website: https://
-developer.nvidia.com/cuda-gpus.
-To install PyTorch 1.13.1, you can follow the instructions on the official PyTorch website: https://
-pytorch.org/. You can choose the installation method that is most appropriate for your system
-(including CUDA and cuDNN).
-To install PyTorch Geometric 2.2.0, you can follow the instructions in the GitHub repository: https://
-pytorch-geometric.readthedocs.io/en/2.2.0/notes/installation.html.
+To install Python 3.8.15, you can download the latest version from the official Python website: https://www.python.org/downloads/. We strongly recommend using a virtual environment, such as venv or conda. Optionally, if you want to use a Graphics Processing Unit (GPU) from NVIDIA to accelerate training and inference, you will need to install CUDA and cuDNN:
+
+CUDA is a parallel computing platform and API developed by NVIDIA for general computing on GPUs. To install CUDA, you can follow the instructions on the NVIDIA website: https://developer.nvidia.com/cuda-downloads. 
+
+cuDNN is a library developed by NVIDIA, which provides highly optimized GPU implementations of primitives for deep learning algorithms. To install cuDNN, you need to create an account on the NVIDIA website and download the library from the cuDNN download page: https://developer.nvidia.com/cudnn. 
+You can check out the list of CUDA-enabled GPU products on the NVIDIA website: https://developer.nvidia.com/cuda-gpus. To install PyTorch 1.13.1, you can follow the instructions on the official PyTorch website: https://pytorch.org/. You can choose the installation method that is most appropriate for your system (including CUDA and cuDNN).
+
+To install PyTorch Geometric 2.2.0, you can follow the instructions in the GitHub repository: https://pytorch-eometric.readthedocs.io/en/2.2.0/notes/installation.html.
 You will need to have PyTorch installed on your system first.
-Chapter 11 requires TensorFlow 2.4. To install it, you can follow the instructions on the official TensorFlow
-website: https://www.tensorflow.org/install. You can choose the installation method
-that is most appropriate for your system and the version of TensorFlow you want to use.
-Chapter 14 requires an older version of PyTorch Geometric (version 2.0.4). It is recommended to
-create a specific virtual environment for this chapter.
-Chapter 15, Chapter 16, and Chapter 17 require a high GPU memory usage. You can lower it by
-decreasing the size of the training set in the code.
-Other Python libraries are required in some or most chapters. You can install them using pip install
-<name==version>, or using another installer depending on your configuration (such as conda).
+
+Chapter 11 requires TensorFlow 2.4. To install it, you can follow the instructions on the official TensorFlow website: https://www.tensorflow.org/install. You can choose the installation method that is most appropriate for your system and the version of TensorFlow you want to use.
+
+Chapter 14 requires an older version of PyTorch Geometric (version 2.0.4). It is recommended to create a specific virtual environment for this chapter.
+
+Chapter 15, Chapter 16, and Chapter 17 require a high GPU memory usage. You can lower it by decreasing the size of the training set in the code.
+Other Python libraries are required in some or most chapters. You can install them using pip install <name==version>, or using another installer depending on your configuration (such as conda).
+
 Here is the complete list of required packages with the corresponding versions:
 • pandas==1.5.2
 • gensim==4.3.0
@@ -95,11 +82,8 @@ Here is the complete list of required packages with the corresponding versions:
 • deepchem==2.7.1
 • torch-geometric-temporal==0.54.0
 • captum==0.6.0
-The complete list of requirements is available on GitHub at https://github.com/
-PacktPublishing/Hands-On-Graph-Neural-Networks-Using-Python. Alternatively,
-you can directly import notebooks in Google Colab at https://colab.research.google.com.
-
-
+The complete list of requirements is available on GitHub at https://github.com/PacktPublishing/Hands-On-Graph-Neural-Networks-Using-Python. 
+Alternatively, you can directly import notebooks in Google Colab at https://colab.research.google.com.
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://packt.link/gaFU6).
 
