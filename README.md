@@ -104,4 +104,4 @@ the AI Connectivity Lab at Airbus, where he applied his expertise in machine lea
 security and performance of computer networks. He then joined J.P. Morgan, where he now develops
 techniques for solving a variety of challenging problems in finance and other domains. In addition
 to his research work, Maxime is passionate about sharing his knowledge and experience with others
-through Twitter (@maximelabonne) and his personal blog
+through Twitter (@maximelabonne) and his personal blog.
