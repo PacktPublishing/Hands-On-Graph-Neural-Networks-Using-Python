@@ -59,6 +59,7 @@ To install Python 3.8.15, you can download the latest version from the official 
 CUDA is a parallel computing platform and API developed by NVIDIA for general computing on GPUs. To install CUDA, you can follow the instructions on the NVIDIA website: https://developer.nvidia.com/cuda-downloads. 
 
 cuDNN is a library developed by NVIDIA, which provides highly optimized GPU implementations of primitives for deep learning algorithms. To install cuDNN, you need to create an account on the NVIDIA website and download the library from the cuDNN download page: https://developer.nvidia.com/cudnn. 
+
 You can check out the list of CUDA-enabled GPU products on the NVIDIA website: https://developer.nvidia.com/cuda-gpus. To install PyTorch 1.13.1, you can follow the instructions on the official PyTorch website: https://pytorch.org/. You can choose the installation method that is most appropriate for your system (including CUDA and cuDNN).
 
 To install PyTorch Geometric 2.2.0, you can follow the instructions in the GitHub repository: https://pytorch-eometric.readthedocs.io/en/2.2.0/notes/installation.html.
@@ -72,16 +73,17 @@ Chapter 15, Chapter 16, and Chapter 17 require a high GPU memory usage. You can 
 Other Python libraries are required in some or most chapters. You can install them using pip install <name==version>, or using another installer depending on your configuration (such as conda).
 
 Here is the complete list of required packages with the corresponding versions:
-• pandas==1.5.2
-• gensim==4.3.0
-• networkx==2.8.8
-• matplotlib==3.6.3xviii Preface
-• node2vec==0.4.6
-• seaborn==0.12.2
-• scikit-learn==1.2.0
-• deepchem==2.7.1
-• torch-geometric-temporal==0.54.0
-• captum==0.6.0
+* pandas==1.5.2
+* gensim==4.3.0
+* networkx==2.8.8
+* matplotlib==3.6.3xviii Preface
+* node2vec==0.4.6
+* seaborn==0.12.2
+* scikit-learn==1.2.0
+* deepchem==2.7.1
+* torch-geometric-temporal==0.54.0
+* captum==0.6.0
+
 The complete list of requirements is available on GitHub at https://github.com/PacktPublishing/Hands-On-Graph-Neural-Networks-Using-Python. 
 Alternatively, you can directly import notebooks in Google Colab at https://colab.research.google.com.
 
