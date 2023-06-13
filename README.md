@@ -89,6 +89,11 @@ Alternatively, you can directly import notebooks in Google Colab at https://cola
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://packt.link/gaFU6).
 
+## Errata
+
+* Page 109: Formula of GAT should be
+ ![image](https://github.com/PacktPublishing/Hands-On-Graph-Neural-Networks-Using-Python/assets/108388790/8d00dd02-8296-4a85-9f3a-c1b91a386f4b)
+
 
 ### Related products <Other books you may enjoy>
 * Network Science with Python [[Packt]](https://www.packtpub.com/product/network-science-with-python/9781801073691) [[Amazon]](https://www.amazon.com/dp/B0BJKP7R4P)
