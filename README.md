@@ -73,13 +73,22 @@ Chapter 15, Chapter 16, and Chapter 17 require a high GPU memory usage. You can 
 Other Python libraries are required in some or most chapters. You can install them using pip install <name==version>, or using another installer depending on your configuration (such as conda).
 
 Here is the complete list of required packages with the corresponding versions:
+* torch==1.13.1+cu117
+* torchvision==0.14.1+cu117
+* torchaudio==0.13.1+cu117
 * pandas==1.5.2
 * gensim==4.3.0
+* torch-scatter==2.1.0+pt113cu117
+* torch-sparse==0.6.16+pt113cu117
+* torch-cluster==1.6.0+pt113cu117
+* torch-spline-conv==1.2.1+pt113cu117
+* torch-geometric==2.2.0
 * networkx==2.8.8
-* matplotlib==3.6.3xviii Preface
+* matplotlib==3.6.3
 * node2vec==0.4.6
 * seaborn==0.12.2
 * scikit-learn==1.2.0
+* tensorflow-gpu~=2.4
 * deepchem==2.7.1
 * torch-geometric-temporal==0.54.0
 * captum==0.6.0
