@@ -70,7 +70,7 @@ cuDNN is a library developed by NVIDIA, which provides highly optimized GPU impl
 
 You can check out the list of CUDA-enabled GPU products on the NVIDIA website: https://developer.nvidia.com/cuda-gpus. To install PyTorch 1.13.1, you can follow the instructions on the official PyTorch website: https://pytorch.org/. You can choose the installation method that is most appropriate for your system (including CUDA and cuDNN).
 
-To install PyTorch Geometric 2.2.0, you can follow the instructions in the GitHub repository: https://pytorch-eometric.readthedocs.io/en/2.2.0/notes/installation.html.
+To install PyTorch Geometric 2.2.0, you can follow the instructions in the GitHub repository: https://pytorch-geometric.readthedocs.io/en/2.2.0/notes/installation.html.
 You will need to have PyTorch installed on your system first.
 
 Chapter 11 requires TensorFlow 2.4. To install it, you can follow the instructions on the official TensorFlow website: https://www.tensorflow.org/install. You can choose the installation method that is most appropriate for your system and the version of TensorFlow you want to use.
