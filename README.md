@@ -1,4 +1,3 @@
-
 ### [Packt Conference : Put Generative AI to work on Oct 11-13 (Virtual)](https://packt.link/JGIEY)
 
 <b><p align='center'>[![Packt Conference](https://hub.packtpub.com/wp-content/uploads/2023/08/put-generative-ai-to-work-packt.png)](https://packt.link/JGIEY)</p></b> 
@@ -107,6 +106,8 @@ Alternatively, you can directly import notebooks in Google Colab at https://cola
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://packt.link/gaFU6).
 
 ## Errata
+
+* Page 62: The number of ratings should be _**55375**_, not _**48,580**_.
 
 * Page 109: Formula of GAT should be
  ![image](https://github.com/PacktPublishing/Hands-On-Graph-Neural-Networks-Using-Python/assets/108388790/8d00dd02-8296-4a85-9f3a-c1b91a386f4b)
