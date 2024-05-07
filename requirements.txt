@@ -1,7 +1,9 @@
+--extra-index-url https://download.pytorch.org/whl/cu117
+-f https://data.pyg.org/whl/torch-1.13.1+cu117.html
 torch==1.13.1+cu117
 torchvision==0.14.1+cu117
 torchaudio==0.13.1+cu117
-pandas==1.5.2
+pandas
 gensim==4.3.0
 torch-scatter==2.1.0+pt113cu117
 torch-sparse==0.6.16+pt113cu117
@@ -13,7 +15,7 @@ matplotlib==3.6.3
 node2vec==0.4.6
 seaborn==0.12.2
 scikit-learn==1.2.0
-tensorflow-gpu~=2.4
+tensorflow~=2.4
 deepchem==2.7.1
 torch-geometric-temporal==0.54.0
 captum==0.6.0
